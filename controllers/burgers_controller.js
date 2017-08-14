@@ -37,11 +37,16 @@ router.post("/", function(req, res) {
 
 // Update
 router.put("/:id", function(req, res) {
-  var theId = req.params.id;
-  db.Burger.update(
-          {devoured : true}, {where: { id: theId}}
-     ).then(function() {
-          res.redirect('/burgers');
+  var burgerId = req.params.id;
+  db.Burger.update({
+      devoured : true
+    }, 
+    {
+      where: { 
+        id: burgerId
+      }
+    }).then(function() {
+        res.redirect('/burgers');
      });
 });
 
