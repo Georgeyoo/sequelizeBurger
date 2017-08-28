@@ -10,12 +10,7 @@ var path = require("path");
 var db = require("../models");
 
 //routes 
-
-// What is this?
-//Get
 router.get("/", function(req, res) {
-  // res.sendFile(path.join(__dirname, "../public/blog.html"));
-    // res.render("index.handlebars");
     res.redirect("/burgers");
 });
 

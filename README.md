@@ -1,7 +1,6 @@
 # burger
-Burgernomnom.herokuapp.com
 
-Welcome to Burgernomnom -- a project I put together to show case an alternative to the usual "To-Do List"!
+Welcome to Burgernomnom -- a project I put together to show case an alternative to the usual "To-Do List" using node.js, express.js, handlebars.js, and a mysql database!
 
 Technologies Used:
 - Node.js
@@ -14,3 +13,4 @@ Methodologies Used:
 - MVC
 - RESTful API 
 
+Deployed on Heroku (using JawsDB) and can be found here: Burgernomnom.herokuapp.com
