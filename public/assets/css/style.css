@@ -11,5 +11,7 @@ h3 {
 }
 
 body {
-	background-image: url("https://3.bp.blogspot.com/-3pWP7WmxKYY/V_jVLvDkbsI/AAAAAAAAKwI/D8q7YzdmrNod5xyXJ90QZTEqOrfkN90sQCLcB/s1600/Beef%2BBurger%2BJunk%2BFood%2Bpicture%2Bwithout%2Bbackground.png")
+	background-image: url("https://3.bp.blogspot.com/-3pWP7WmxKYY/V_jVLvDkbsI/AAAAAAAAKwI/D8q7YzdmrNod5xyXJ90QZTEqOrfkN90sQCLcB/s1600/Beef%2BBurger%2BJunk%2BFood%2Bpicture%2Bwithout%2Bbackground.png");
+	background-repeat: no-repeat;
+	background-position: center;
 }
